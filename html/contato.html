@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Fast Oil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 8px;
+        }
+        .container h2 {
+            text-align: center;
+            color: #ccc;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 16px;
+        }
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 20px;
+            border: 1px solid #666;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #444;
+            border: none;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fast Oil</h1>
+    </header>
+
+    <div class="container">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="POST">
+            <label for="email">Seu E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+            <label for="message">Sua Mensagem:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Digite sua mensagem"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fast Oil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

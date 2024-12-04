@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Oil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+
+      
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .image-container div {
+            width: 30%;
+            height: 300px;
+            background-color: #ddd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;  
+        }
+
+       
+        .image-container div img {
+            width: 100%;  
+            height: 100%;  
+            object-fit: cover;  
+            border-radius: 8px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            .image-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .image-container div {
+                width: 80%;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fast Oil</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Bem-vindo ao Fast Oil</h2>
+        <p>Encontre os melhores produtos para o seu veículo com rapidez e eficiência.</p>
+
+        <!-- Espaços para imagens -->
+        <div class="image-container">
+            <div><img src="https://site.zuldigital.com.br/blog/wp-content/uploads/2020/11/shutterstock_1126225445_Easy-Resize.com_.jpg" alt="Imagem 1"></div>
+            <div><img src="https://blog.pneustore.com.br/wp-content/uploads/2022/10/TROCA-DE-OLEO-BLOG-PNEUSTORE-2.png" alt="Imagem 2"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Mbj0jo14GTnKz1m-CD1X0XRaQXrSLQsjn4bg7ujmRNESI4-L9zbu9-W56HDfxT_sSqQ&usqp=CAU" alt="Imagem 3"></div>
+        </div>
+    </main>
+</body>
+</html>
+
